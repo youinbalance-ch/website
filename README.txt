@@ -1,4 +1,4 @@
-YOUINBALANCE.CH – Veröffentlichung mit GitHub Pages vorbereiten
+YOUINBALANCE.CH – Website und Suchmaschinen-Optimierung
 
 Stand: 29. Oktober 2026
 Grundlage: freigegebene Demo, Version 5, inklusive aller Korrekturen vom 19. Oktober.
@@ -14,11 +14,15 @@ veröffentlichten Dateien in main automatisch auf der Website bereitgestellt.
 Das Python-Skript wird bei dieser Veröffentlichung nicht automatisch ausgeführt.
 
 BEARBEITUNG
-Texte werden in quellcode/build.py gepflegt. Mit Python 3 ausführen:
+Seitentexte werden in quellcode/build.py gepflegt; SEO-Titel, Beschreibungen,
+strukturierte Daten und Breadcrumbs in quellcode/seo.py. Mit Python 3 ausführen:
 python quellcode/build.py
 Dabei werden auch robots.txt und sitemap.xml neu erzeugt.
 Die erzeugten HTML-Dateien zusammen mit der Quelle auf GitHub aktualisieren.
 CSS und JavaScript liegen unter assets und werden direkt dort bearbeitet.
+Bei neuen Bildern zuerst quellcode/optimize_images.py ausführen (Pillow nötig).
+Die öffentlichen Bildvarianten, Icons und image-manifest.json mit veröffentlichen.
+Der normale HTML-Build benötigt nur die Python-Standardbibliothek.
 
 EINMALIGE EINRICHTUNG
 Das Repository gehört der Organisation youinbalance-ch. Tatjana verwaltet die
@@ -45,14 +49,19 @@ Dies erzeugt release/YouInBalance_Website_Export.zip mit den öffentlichen
 HTML-Seiten, den benötigten assets, robots.txt und sitemap.xml.
 Für GitHub Pages ist dieser ZIP-Export nicht erforderlich.
 
-STAND DER VORBEREITUNG
-Demo-Hinweise sind entfernt; die Seiten erlauben Suchmaschinen-Indexierung.
-Canonical-Adressen und Sitemap verwenden https://youinbalance.ch/.
+PRODUKTIONSKONFIGURATION
+Die Domain ist mit GitHub Pages verbunden; die bisherige Live-Version wurde
+mit aktivem HTTPS und funktionierender Weiterleitung von www geprüft.
+Die Seiten erlauben Suchmaschinen-Indexierung. Canonical-Adressen und Sitemap
+verwenden https://youinbalance.ch/; interne Startseitenlinks verwenden /.
 Die Datenschutzhinweise beschreiben GitHub Pages sowie Gmail und WhatsApp.
 Das Kontaktformular öffnet einen E-Mail-Entwurf und sendet nicht automatisch.
 WhatsApp ist mit 079 267 50 37 verknüpft. Rezept und Bilder sind enthalten.
-Die Einrichtung von Pages, DNS und HTTPS ist noch nicht abgeschlossen.
-Vor dem Abschluss Seiten, Bilder, Menü und Kontaktfunktionen unter der Domain
-prüfen. Dieses Repository enthält keine Zugangsdaten.
+Diese Überarbeitung ergänzt lokale Seitentitel, verständliche Überschriften,
+strukturierte Angaben zu Tatjana, dem Unternehmen, den Leistungen und dem Rezept,
+sichtbare Breadcrumbs und responsive Bilder mit korrekten Abmessungen.
+Die verbesserten Dateien werden erst nach ihrer Veröffentlichung auf main live.
+Prüfung und weitere Schritte: quellcode/SEO.md.
+Dieses Repository enthält keine Zugangsdaten.
 Der bestehende Demo-Auftritt bei ChatGPT Sites wird durch Änderungen in
 diesem Repository nicht verändert.

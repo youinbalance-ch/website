@@ -1,0 +1,308 @@
+{
+  "muffins": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "responsive/muffins-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/muffins-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/muffins-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "nature": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "responsive/nature-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/nature-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/nature-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "tatjana-dining": {
+    "width": 1152,
+    "height": 1536,
+    "variants": [
+      {
+        "file": "responsive/tatjana-dining-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-dining-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-dining-1152.webp",
+        "width": 1152
+      }
+    ]
+  },
+  "tatjana-gym": {
+    "width": 1017,
+    "height": 2200,
+    "variants": [
+      {
+        "file": "responsive/tatjana-gym-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-gym-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-gym-1017.webp",
+        "width": 1017
+      }
+    ]
+  },
+  "tatjana-hike": {
+    "width": 1152,
+    "height": 1536,
+    "variants": [
+      {
+        "file": "responsive/tatjana-hike-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-hike-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-hike-1152.webp",
+        "width": 1152
+      }
+    ]
+  },
+  "tatjana-lake": {
+    "width": 1152,
+    "height": 1536,
+    "variants": [
+      {
+        "file": "responsive/tatjana-lake-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-lake-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-lake-1152.webp",
+        "width": 1152
+      }
+    ]
+  },
+  "tatjana-paris-arc": {
+    "width": 1650,
+    "height": 2200,
+    "variants": [
+      {
+        "file": "responsive/tatjana-paris-arc-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-paris-arc-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-paris-arc-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "tatjana-paris": {
+    "width": 1650,
+    "height": 2200,
+    "variants": [
+      {
+        "file": "responsive/tatjana-paris-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-paris-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-paris-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "tatjana-portrait": {
+    "width": 1800,
+    "height": 2050,
+    "variants": [
+      {
+        "file": "responsive/tatjana-portrait-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-portrait-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-portrait-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "tatjana-roadtrip": {
+    "width": 1152,
+    "height": 1536,
+    "variants": [
+      {
+        "file": "responsive/tatjana-roadtrip-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-roadtrip-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-roadtrip-1152.webp",
+        "width": 1152
+      }
+    ]
+  },
+  "tatjana-seaside": {
+    "width": 1152,
+    "height": 1536,
+    "variants": [
+      {
+        "file": "responsive/tatjana-seaside-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-seaside-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-seaside-1152.webp",
+        "width": 1152
+      }
+    ]
+  },
+  "tatjana-snow-walk": {
+    "width": 1536,
+    "height": 1152,
+    "variants": [
+      {
+        "file": "responsive/tatjana-snow-walk-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-snow-walk-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-snow-walk-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "tatjana-stage-front": {
+    "width": 1467,
+    "height": 2200,
+    "variants": [
+      {
+        "file": "responsive/tatjana-stage-front-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-stage-front-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-stage-front-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "tatjana-stage-pose": {
+    "width": 1320,
+    "height": 1597,
+    "variants": [
+      {
+        "file": "responsive/tatjana-stage-pose-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-stage-pose-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-stage-pose-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "tatjana-watersport": {
+    "width": 1536,
+    "height": 1026,
+    "variants": [
+      {
+        "file": "responsive/tatjana-watersport-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-watersport-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-watersport-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "tatjana-winter": {
+    "width": 1536,
+    "height": 1026,
+    "variants": [
+      {
+        "file": "responsive/tatjana-winter-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/tatjana-winter-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/tatjana-winter-1200.webp",
+        "width": 1200
+      }
+    ]
+  },
+  "training": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "responsive/training-480.webp",
+        "width": 480
+      },
+      {
+        "file": "responsive/training-800.webp",
+        "width": 800
+      },
+      {
+        "file": "responsive/training-1200.webp",
+        "width": 1200
+      }
+    ]
+  }
+}
