@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /quellcode/
+Disallow: /release/
 Sitemap: https://youinbalance.ch/sitemap.xml
