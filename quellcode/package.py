@@ -7,8 +7,8 @@ root = Path(__file__).resolve().parent.parent
 runpy.run_path(str(root / 'quellcode' / 'build.py'), run_name='__main__')
 html = sorted(root.glob('*.html'))
 assets = sorted(p for p in (root / 'assets').rglob('*')
-                if p.is_file() and p.suffix.lower() in {'.webp', '.css', '.js'})
-files = html + assets + [root / 'robots.txt', root / 'sitemap.xml']
+                if p.is_file() and p.suffix.lower() in {'.webp', '.css', '.js', '.png', '.svg', '.ico', '.json'})
+files = html + assets + [root / 'robots.txt', root / 'sitemap.xml', root / 'CNAME']
 assert len(html) == 12, 'Expected twelve HTML pages'
 assert all(p.is_file() for p in files)
 out = root / 'release'
