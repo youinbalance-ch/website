@@ -1,4 +1,4 @@
-"""Regenerate and package only public website files for Infomaniak."""
+"""Regenerate and export the public website files independently of GitHub Pages."""
 from pathlib import Path
 import runpy
 from zipfile import ZipFile, ZIP_DEFLATED
@@ -11,10 +11,9 @@ assets = sorted(p for p in (root / 'assets').rglob('*')
 files = html + assets + [root / 'robots.txt', root / 'sitemap.xml']
 assert len(html) == 12, 'Expected twelve HTML pages'
 assert all(p.is_file() for p in files)
-assert sum(p.stat().st_size for p in files) < 10_000_000, 'Starter storage limit exceeded'
 out = root / 'release'
 out.mkdir(exist_ok=True)
-archive = out / 'YouInBalance_Infomaniak.zip'
+archive = out / 'YouInBalance_Website_Export.zip'
 with ZipFile(archive, 'w', ZIP_DEFLATED) as zip_file:
     for path in files:
         zip_file.write(path, path.relative_to(root).as_posix())
